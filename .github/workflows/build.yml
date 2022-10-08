@@ -1,0 +1,59 @@
+name: Update repo
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Number of days.'
+        required: true
+        default: 1
+      minimum_runs:
+        description: 'The minimum runs to keep for each workflow.'
+        required: true
+        default: 1
+#      delete_workflow_pattern:
+#        description: 'The name or filename of the workflow. if not set then it will target all workflows.'
+#        required: true
+#        default: "All"
+  
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, 'skip-ci')"
+    runs-on: ubuntu-latest
+    concurrency:   
+      group: ${{ github.workflow }}-${{ github.ref }}
+          
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install build requirements
+        run: sudo apt-get -y install lz4
+
+      - name: Get commit SHA
+        id: vars
+        shell: bash
+        run: |
+          echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+          echo "::set-output name=sha_short::$(git rev-parse HEAD)"
+
+      - name: Build repo
+        run: |
+          bash build.sh
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update repo
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: ${{ github.event.inputs.days }}
+          keep_minimum_runs: ${{ github.event.inputs.minimum_runs }}
+#          delete_workflow_pattern: ${{ github.event.inputs.delete_workflow_pattern }}

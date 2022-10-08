@@ -1,0 +1,239 @@
+Package: netskao.joker
+Architecture: iphoneos-arm
+Version: 1.1-2
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 220
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./pool/Joker_1.1-2.deb
+Size: 51238
+MD5sum: e7ac427caaffdc78bf763c7772e88979
+SHA1: db0d36b071c950f16d5a6c9f12d18370094c4235
+SHA256: ebc64f0ff01302e21a886f0fe534a2c2529b1286b75658e8c8c46ef988c3efd8
+SHA512: 10366633141fa27d53cbaec0faf424748005d4443b93c89c6b4b1f582425d13a56c030c6cb7aeebe6981f141898c380e50ba083c96e0e82793c169a6ff49ba8d
+Description: Joker for WeChat
+Name: Joker
+Author: Netskao
+
+Package: cn.yttxcs.wechat.fzye
+Architecture: iphoneos-arm
+Version: 1.1.5
+Section: 微信
+Maintainer: 他是个疯子 <409774743@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./pool/WeChat_1.1.5.deb
+Size: 610048
+MD5sum: 3e772b06bf35fb97eccb90c2e0d8a353
+SHA1: 01ae70dfbdc078f3c7339c55feeda4741f6764e5
+SHA256: cd8a5d5f00c60d5c9a509a61ef37ee152925258a691ffa9c79c5e88affbc9011
+SHA512: 333727e92e36a010cd8ef303bd5df42f79d63accee499a744d3b18ba952fca0b220477f5bf9af3cae8e0f9cf663c6d191f4963c151139dabbfcccbb07edf980b
+Description: 微信助手集合各种增强功能,朋友圈转发,语言转发,等等强大的功能
+ModernDepiction:
+Name: WeChat 「微信助手」
+Author: Jan
+Sponsor: 幺筒源<409774743@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+
+Package: com.appku.wechat
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: App库
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/appku1.1.deb
+Size: 326892
+MD5sum: cfe7e520a667943fae5f2e57065fb556
+SHA1: 660e6dfc1b6d3de4253ae2ebc3f77adb9cd108e0
+SHA256: 9505fac3dd3740c7b8f80e1fa128e3886c18599ae246ae9d583e3f0a4e10b87c
+SHA512: 05d4bf1a0fe82fdb219c6482840ceb8d0e761f9d1f6cf4582bd5d7063b85592c249ebaf3083c47039a8e820a9be9715f7351c3aa977139507a717f956fa4b14a
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像等；新增侧栏悬浮窗以及一些小功能。
+Name: App库微信小助手
+Author: App库
+
+Package: com.bynow.starvpn
+Architecture: iphoneos-arm
+Version: 0.0.1+debug
+Section: Tweaks
+Maintainer: 子非鱼
+Installed-Size: 80
+Depends: mobilesubstrate
+Filename: ./pool/com.bynow.starvpn_0.0.1+debug_iphoneos-arm.deb
+Size: 3902
+MD5sum: 88ee87bff0470cc0b65dac37ffbd724d
+SHA1: 9aaaa5171208d3991f889c741ce243a5d6401fd6
+SHA256: f04fdddf234944a94cb1b54b3c510fadb421a0d933691df970107c4d0fb66b77
+SHA512: f36fea21bb029a51b3dcd7a8b8cae130b1232d09c2fe1c01c723bb2a3e15e295162e74ca7cc1f55e2f88321d0b38411e3175696e5b4d7ea6feefd69d17b99341
+Description: Starvpn
+Name: Star VPN
+Author: 子非鱼
+
+Package: com.cpdigitaldarkroom.barmoji
+Architecture: iphoneos-arm
+Version: 2020.5
+Section: Tweaks
+Maintainer: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
+Installed-Size: 488
+Depends: mobilesubstrate, preferenceloader
+Filename: ./pool/com.cpdigitaldarkroom.barmoji_2020.5_iphoneos-arm.deb
+Size: 59518
+MD5sum: 51bf837ea3c5b847277cae576be9370b
+SHA1: 3966284cc458cf37ba4e741fcfebebea65ca275f
+SHA256: c64dabd2330a3d4d6b6ce54b671e9ceeeb727cd28038508d113389b49ba755f2
+SHA512: 5fd1cb4218f4d31b97c981447b576a1abc2960c1f54471a39f1bead0ddea4952a424e7fa060ffebacd2dfa8b4c32a9066a5df7c6384abf2d42ee107d42222c06
+Homepage: https://apt.cpdigitaldarkroom.com/depictions/com.cpdigitaldarkroom.barmoji/
+Description: Quick Emoji Access Bar
+Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.3
+Name: Barmoji
+Author: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
+Depiction: https://apt.cpdigitaldarkroom.com/depictions/com.cpdigitaldarkroom.barmoji/
+
+Package: com.pulandres.conditionalwifi4
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Pulandres
+Depends: mobilesubstrate
+Filename: ./pool/com.pulandres.conditionalwifi4_1.0.0_iphoneos-arm.deb
+Size: 12760
+MD5sum: afc51a6a71f1e4379268c660ff7502ef
+SHA1: 1b361a642c4e285503de4504091d4110e74793f6
+SHA256: 681b6d2fd9e3130098768e935f53f9422c0150a34a6eee4621bcc98f09e1b58a
+SHA512: d4ef793620ef0a5ba14f55a771e9f3e29a925bb85555b343619e8557538a9b1e8be3425302576b6e2ae00db75ea396c7ce8dfa01ea37c8cadf2385b0ff0d2ecc
+Description: Restrict certain apps from accessing wifi on iOS 11
+Name: ConditionalWiFi4 R
+Author: ATWiiks
+Depiction: https://pulandres.me/repo/index.php?pid=20
+
+Package: netskao.awemepurification
+Architecture: iphoneos-arm
+Version: 2.3-4
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 556
+Depends: mobilesubstrate, firmware (>= 9.0)
+Replaces: netskao.awemepurification
+Filename: ./pool/netskao.awemepurification_2.3-4_iphoneos-arm.deb
+Size: 153582
+MD5sum: 76f40668b4b16e8a34bb4b3f31ef1d0f
+SHA1: 21857f8d56b610f96b635dc11da9b337d49534bc
+SHA256: 9fdc041020740ceaa03266d6f5c1e072e650519541a1b090ed62484b2f0999e2
+SHA512: 9b5bbacbb00d6eb35fb396dc247d6c507d8a369aeab617e88bea56577cc6b9cc22819070ff5bce0af01e45373baf0b3db258f46f3a0b9bb93dbaeab9edbcff08
+Description: 抖音净化！设置位于抖音-设置，去除启动广告，去除视频流广告，去除视频流中的直播，去除流量提示，去除青少年提示，去除左下角播放时弹出的商品购买，去除左上角悬浮的推广等，可启用原始按钮或双击视频保存无水印视频活图片，支持保存所有视频或图片，可启用浅色模式或关闭，可启用全局纯净模式，可启用关注二次确定，可启用显示所有视频进度条，可启用双击快捷复制文案，可启用首页或非首页自动播放下一条，可启用iWall插件快速设置背景，可禁用头像挂件显示，可禁用弹出红包，可禁用全局状态栏，可禁用首页本地页面，可禁用摇一摇找朋友，可禁用分享面板朋友，可禁用分享面板应用，可禁用分享面板一起看视频，可禁用视频来源显示，可禁用首页按钮刷新列表，可禁用评论中的置顶评论，可禁用评论中的链接广告，可禁用底部朋友按钮，可禁用底部发抖音按钮，可禁用底部消息按钮，可禁用首页左上角直播按钮，可禁用首页右上角搜索按钮，仅支持15.7.0版本及以上(最后完美兼容版本16.2.0)
+Name: 抖音净化
+Author: Netskao
+
+Package: netskao.dndbannerpypass
+Architecture: iphoneos-arm
+Version: 1.1-1
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 420
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./pool/netskao.dndbannerpypass_1.1-1_iphoneos-arm.deb
+Size: 75108
+MD5sum: 1ecc863c00f1f96a8f055ea0090b8ff8
+SHA1: 064c4b9bdb118de49a284ab0ca2926f2f34c8ea9
+SHA256: 1c6530fdfa8c4463372c2275d999abc4c8f2c1aeb5cec438a52c1b7329f3691d
+SHA512: f515d41c27282d020d303de9df530374a48a4e7ef83e7d65abaf253aa82f42dea89790289cb6f0859b35867d1d2efa51209acb9652d6626ada1966a564b53d13
+Description: 勿扰模式启用时允许你选择的应用正常发送通知，前往设置自行选择需要允许通知的应用
+Name: DNDBannerBypass
+Author: Netskao
+
+Package: netskao.localhostssh
+Architecture: iphoneos-arm
+Version: 0.1.3
+Section: Netskao-Tweaks
+Maintainer: Nets
+Depends: firmware (>= 11.0), sed, openssh
+Filename: ./pool/netskao.localhostssh_0.1.3_iphoneos-arm.deb
+Size: 75932
+MD5sum: d29981f59b86d0726e2fbccb05d13425
+SHA1: a54c25d24a5f077d515d3fe5d404709b8837c988
+SHA256: 2088e7dfc0ac282509a83ac519577773fd7f70482713cc18b7ce7b8e26e3909a
+SHA512: 6d54bd1d42a128d1a9f5ba21c6f33c43d84d8d79d1277e0ca2767c45412ab969c0d059543c9613d549a497f957a2709fe626cb2a1996151bc55db50eb023722e
+Description: 开启本地SSH的2222端口，Shelly终端127.0.0.1或localhost
+Name: Local SSH
+Author: zhaonan & Netskao
+
+Package: netskao.wechatautologin
+Architecture: iphoneos-arm
+Version: 1.0-1
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 376
+Depends: mobilesubstrate
+Filename: ./pool/netskao.wechatautologin_1.0-1_iphoneos-arm.deb
+Size: 68218
+MD5sum: a58767321e20ff359c6128e101daaa88
+SHA1: fc191062b11f8d1917317f77cb4b828cee2252a0
+SHA256: 03f1a4b839497c82ec043974e600ab86b423500c722cf324b14b7231fa6521f4
+SHA512: 45ee553ef6421f47b01daa5e11ed74430c863c0038c937a2fea22328f90ffbeb31a1d8cd96137445f3df57c08b3e043134c913ddf5dcd673e6387e0945a87657
+Description: 电脑登陆微信扫码后自动确定，下次电脑点击登陆后跳转微信后直接登录
+Name: WeChatAutoLogin
+Author: Netskao
+
+Package: org.thebigboss.gpscheat
+Architecture: iphoneos-arm
+Version: 1.1-5
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 775
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./pool/org.thebigboss.gpscheat_1.1-5_iphoneos-arm.deb
+Size: 133892
+MD5sum: 2cb43c64d8017a0349732a7a5a88334a
+SHA1: 7d822ef167c626129d930427e99beac2d4fc4642
+SHA256: 9d0bd11bda6d7cf26702fac61d8e6bcabc1f4166b4aaa45cba1eca7c96f80517
+SHA512: 895459c91f7932e6759a672d5581ea765e1d70e57e66a5399518b5a047fe247219aef225bf58b08df97d89ef018da0fd46b725ada0c16bcd862bc7d10bbd611e
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gpscheatDp
+Description: Set a Fake Any Location On Device!
+Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: Minuit <minuits@163.com>
+Name: GPSCheat
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gpscheatDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: minuit
+Icon: file:///Library/PreferenceBundles/GPSCheatSettings.bundle/icon@2x.png
+
+Package: ws.hbang.newterm2
+Architecture: iphoneos-arm
+Version: 3.0
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 22168
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Recommends: iterm2-shell-integration
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./pool/ws.hbang.newterm2_3.0_iphoneos-arm.deb
+Size: 4516216
+MD5sum: 3e69e66e051f711c0b0b94aa78a5ff7b
+SHA1: 1fa01fc0a2101a7d802e50dbea5afc67ace8e05f
+SHA256: 81346a6c1de21f9ce145512f711aa132d2ce2d2fe380d408edd4a278eac6fa3d
+SHA512: de6a27ec4545101d115416780541ffadbf881f90f1d23bdcb7dde0e11221eb10a556bf4e5ae49a89e0009b03e14247384ddf86357eb4ac74c28bb36880468140
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Name: NewTerm 2
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://chariz.com/get/newterm
+Support: https://hashbang.productions/support/
+
+Package: xyz.coolstar.relocate
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: 实用工具
+Maintainer: Alice源™ <17629241777@163.com>
+Installed-Size: 492
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+Filename: ./pool/xyz.coolstar.relocate_1.0.1_iphoneos-arm.deb
+Size: 118882
+MD5sum: 52ec887b6926c301b3ca9af93cd1257c
+SHA1: 7b4767a0878447807ce73be3c4fc510b89d9c8c2
+SHA256: a1644124941ddc1ce92ee7b5002471ae1f8c58e42d2002ca168ad13ab9e03994
+SHA512: c038343ea0d79b808b263df6fbeca3e21d81eeda602316dbb0341f1a85dea218a9e692ffe805021567f0cad04cdd4044dec2da527f34509d8ad6eaea9c2850d6
+Name: Relocate Reborn定位修改
+Author: Nepeta
+Sponsor: Alice源™ <https://apt.coolstar.xyz/>
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurBo's Repo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <style>
+        body {
+            background: #1a1e23;
+            margin: 0;
+        }
+        #center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  color: lightgray;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: lightgray;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+.verticallinebreak {
+  border-left: 1px solid lightgray;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.packagemanager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.packagemanager a img:hover {
+  transform: scale(1.1);
+}
+    </style>
+</head>
+<body>
+    <div id="center">
+        <h1 style="color: #fff;">TurBo's Repo</h1>
+        <p style="color: #fff;">This is a self-use software source</p>
+        </br>
+        <li><a class="btn btn-sm btn-default" style="color: #fff;" href="itms-services://?action=download-manifest&url=https://dl.i4.cn/sslplist/2017/08/14/09/1502675533562_625994_269617_0_2.plist">无法联网？从爱思服务器安装乐网</a></li>
+        <li><a class="btn btn-sm btn-default" style="color: #fff;" href="./mobileconfig/tvos/tvos15.mobileconfig">安装 tvos15 描述文件来屏蔽更新</a></li>
+        <li><a class="btn btn-sm btn-default" style="color: #fff;" href="./mobileconfig/tvos/tvos16_mcpatch.mobileconfig">安装 tvos16 描述文件来屏蔽更新(需要 mcpatch)</a></li>
+        </br>
+    </div>
+        <div class="packagemanager">
+        <a href="sileo://source/https://turbotse.github.io/repo/" target="_blank"><img src="sileo.png" alt="sileo" width="32" height="32"></a>
+        <div class="verticallinebreak"></div>
+        <a href="zbra://sources/add/https://turbotse.github.io/repo/" target="_blank"><img src="zbra.png" alt="zbra" width="32" height="32"></a>
+        </div>
+    </body>
+</html>
