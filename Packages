@@ -195,6 +195,24 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: minuit
 Icon: file:///Library/PreferenceBundles/GPSCheatSettings.bundle/icon@2x.png
 
+Package: wiki.qaq.iridium
+Architecture: iphoneos-arm
+Version: 1.2.15-REL-1642832736
+Section: Applications
+Maintainer: Lakr Aream <launchctl@outlook.com>
+Pre-Depends: firmware (>= 13.5)
+Filename: ./pool/wiki.qaq.iridium.rel.ci.1642832736.deb
+Size: 5425364
+MD5sum: 2e9e01cb519272c5b14291638c00906c
+SHA1: 8f9be410cbb2b0604fdd5f1375d84908ea167dff
+SHA256: 45709d373520f0613b39a590162e7933469d413e2c56f9dbd06d6072f0d9179c
+SHA512: 9f0284309d021c4e480fd8081d9e575be31654384a59702b5d13fbcc9e6185d65a9b25521fb6c5a1451d3617faf3f3d86d88af77aed2e4c309464e2d0dd1e458
+Description: An iOS application decrypter built ready for use.
+Tag: purpose::uikit
+Name: iridium
+Author: Lakr Aream <launchctl@outlook.com>
+depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+
 Package: ws.hbang.newterm2
 Architecture: iphoneos-arm
 Version: 3.0
